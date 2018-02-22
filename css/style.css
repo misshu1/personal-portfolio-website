@@ -271,9 +271,6 @@ footer {
         background-position: center;
         box-shadow: var(--shadow);
     }
-    .showcase {
-        grid-area: showcase;
-    }
     .top-box-a {
         grid-area: top-box-a;
         background: url(/img/showcase1-small.jpg) no-repeat;
