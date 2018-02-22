@@ -8,5 +8,5 @@ After i created the mockup provided for this project, I've realized that it does
 
 ## Here is what I came up with
 
-![alt text](https://cp07.server.ro:2083/cpsess0022520195/viewer/home%2fandreine%2fpublic_html/portfolio-design.pngrw)
+![alt text](https://cp07.server.ro:2083/cpsess0022520195/viewer/home%2fandreine%2fpublic_html/portfolio-design.png)
 
