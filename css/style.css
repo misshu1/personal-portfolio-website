@@ -75,7 +75,7 @@ header {
 
 .header-left {
     position: relative;
-    background: url(http://127.0.0.1:5500/img/logo.png) no-repeat;
+    background: url(/img/logo.png) no-repeat;
     justify-items: start;
 }
 
@@ -109,14 +109,14 @@ header {
         grid-area: showcase;
         position: relative;
         min-height: 400px;
-        background: url(http://127.0.0.1:5500/img/showcase1.jpg) no-repeat;
+        background: url(/img/showcase1.jpg) no-repeat;
         background-size: cover;
         background-position: center;
         box-shadow: var(--shadow);
     }
     .top-box-a {
         grid-area: top-box-a;
-        background: url(http://127.0.0.1:5500/img/showcase1-small.jpg) no-repeat;
+        background: url(/img/showcase1-small.jpg) no-repeat;
         background-size: cover;
         background-position: center;
         min-width: 200px;
@@ -126,7 +126,7 @@ header {
     }
     .top-box-b {
         grid-area: top-box-b;
-        background: url(http://127.0.0.1:5500/img/showcase2-small.jpg) no-repeat;
+        background: url(/img/showcase2-small.jpg) no-repeat;
         background-size: cover;
         background-position: center;
         min-width: 200px;
@@ -136,7 +136,7 @@ header {
     }
     .top-box-c {
         grid-area: top-box-c;
-        background: url(http://127.0.0.1:5500/img/showcase3-small.jpg) no-repeat;
+        background: url(/img/showcase3-small.jpg) no-repeat;
         background-size: cover;
         background-position: center;
         min-width: 200px;
@@ -160,7 +160,7 @@ header {
 }
 
 .project-a {
-    background: url(http://127.0.0.1:5500/img/card.jpg) no-repeat;
+    background: url(/img/card.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     min-width: 100%;
@@ -170,7 +170,7 @@ header {
 }
 
 .project-b {
-    background: url(http://127.0.0.1:5500/img/first-website.jpg) no-repeat;
+    background: url(/img/first-website.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     min-width: 100%;
@@ -180,7 +180,7 @@ header {
 }
 
 .project-c {
-    background: url(http://127.0.0.1:5500/img/coming-soon.jpg);
+    background: url(/img/coming-soon.jpg);
     background-size: cover;
     background-position: center;
     min-width: 100%;
@@ -190,7 +190,7 @@ header {
 }
 
 .project-d {
-    background: url(http://127.0.0.1:5500/img/coming-soon.jpg);
+    background: url(/img/coming-soon.jpg);
     background-size: cover;
     background-position: center;
     min-width: 100%;
@@ -266,7 +266,7 @@ footer {
         grid-area: showcase;
         position: relative;
         min-height: 300px;
-        background: url(http://127.0.0.1:5500/img/showcase1-lowrez.jpg) no-repeat;
+        background: url(/img/showcase1-lowrez.jpg) no-repeat;
         background-size: cover;
         background-position: center;
         box-shadow: var(--shadow);
@@ -276,21 +276,21 @@ footer {
     }
     .top-box-a {
         grid-area: top-box-a;
-        background: url(http://127.0.0.1:5500/img/showcase1-small.jpg) no-repeat;
+        background: url(/img/showcase1-small.jpg) no-repeat;
         background-size: cover;
         background-position: center;
         min-height: 100px;
     }
     .top-box-b {
         grid-area: top-box-b;
-        background: url(http://127.0.0.1:5500/img/showcase2-small.jpg) no-repeat;
+        background: url(/img/showcase2-small.jpg) no-repeat;
         background-size: cover;
         background-position: center;
         min-height: 100px;
     }
     .top-box-c {
         grid-area: top-box-c;
-        background: url(http://127.0.0.1:5500/img/showcase3-small.jpg) no-repeat;
+        background: url(/img/showcase3-small.jpg) no-repeat;
         background-size: cover;
         background-position: center;
         min-height: 100px;
@@ -307,22 +307,22 @@ footer {
         grid-template-areas: 'project-a' 'project-b' 'project-c' 'project-d';
     }
     .project-a {
-        background: url(http://127.0.0.1:5500/img/card-low-rez.jpg) no-repeat;
+        background: url(/img/card-low-rez.jpg) no-repeat;
         background-size: cover;
         background-position: center;
     }
     .project-b {
-        background: url(http://127.0.0.1:5500/img/first-website-lowrez.jpg) no-repeat;
+        background: url(/img/first-website-lowrez.jpg) no-repeat;
         background-size: cover;
         background-position: center;
     }
     .project-c {
-        background: url(http://127.0.0.1:5500/img/coming-soon-lowrez.jpg) no-repeat;
+        background: url(/img/coming-soon-lowrez.jpg) no-repeat;
         background-size: cover;
         background-position: center;
     }
     .project-d {
-        background: url(http://127.0.0.1:5500/img/coming-soon-lowrez.jpg) no-repeat;
+        background: url(/img/coming-soon-lowrez.jpg) no-repeat;
         background-size: cover;
         background-position: center;
     }
