@@ -83,6 +83,15 @@ header {
     justify-items: start;
 }
 
+@media screen and (max-width: 500px) {
+    .header-left {
+        background: url(/img/logo-lowrez.png) no-repeat;
+    }
+    header {
+        grid-auto-rows: 67px auto;
+    }
+}
+
 .icons {
     color: var(--dark);
     padding: 5px;
