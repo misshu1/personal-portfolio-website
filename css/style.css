@@ -48,6 +48,10 @@ body {
     margin: 1rem 0 0;
 }
 
+.showcase-title {
+    margin: 0;
+}
+
 .project-title {
     margin-top: 0;
     text-align: center;
