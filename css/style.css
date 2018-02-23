@@ -108,10 +108,11 @@ header {
     .showcase {
         grid-area: showcase;
         position: relative;
-        min-height: 400px;
         background: url(/img/showcase1.jpg) no-repeat;
         background-size: cover;
         background-position: center;
+        min-height: 20px;
+        padding-bottom: calc(100% * 9 / 16);
         box-shadow: var(--shadow);
     }
     .top-box-a {
@@ -119,6 +120,7 @@ header {
         background: url(/img/showcase1-small.jpg) no-repeat;
         background-size: cover;
         background-position: center;
+        padding-bottom: calc(100% * 9 / 16);
         min-width: 200px;
     }
     .top-box-a:hover {
@@ -129,6 +131,7 @@ header {
         background: url(/img/showcase2-small.jpg) no-repeat;
         background-size: cover;
         background-position: center;
+        padding-bottom: calc(100% * 9 / 16);
         min-width: 200px;
     }
     .top-box-b:hover {
@@ -139,6 +142,7 @@ header {
         background: url(/img/showcase3-small.jpg) no-repeat;
         background-size: cover;
         background-position: center;
+        padding-bottom: calc(100% * 9 / 16);
         min-width: 200px;
     }
     .top-box-c:hover {
@@ -265,7 +269,8 @@ footer {
     .showcase {
         grid-area: showcase;
         position: relative;
-        min-height: 300px;
+        min-height: 20px;
+        padding-bottom: calc(100% * 3 / 4);
         background: url(/img/showcase1-lowrez.jpg) no-repeat;
         background-size: cover;
         background-position: center;
@@ -276,21 +281,24 @@ footer {
         background: url(/img/showcase1-small.jpg) no-repeat;
         background-size: cover;
         background-position: center;
-        min-height: 100px;
+        min-height: 20px;
+        padding-bottom: calc(100% * 3 / 4);
     }
     .top-box-b {
         grid-area: top-box-b;
         background: url(/img/showcase2-small.jpg) no-repeat;
         background-size: cover;
         background-position: center;
-        min-height: 100px;
+        min-height: 20px;
+        padding-bottom: calc(100% * 3 / 4);
     }
     .top-box-c {
         grid-area: top-box-c;
         background: url(/img/showcase3-small.jpg) no-repeat;
         background-size: cover;
         background-position: center;
-        min-height: 100px;
+        min-height: 20px;
+        padding-bottom: calc(100% * 3 / 4);
     }
 }
 
