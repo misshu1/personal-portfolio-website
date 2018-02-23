@@ -8,5 +8,5 @@ After i created the mockup provided for this project, I've realized that it does
 
 ## Here is what I came up with
 
-`https://github.com/misshu1/portfolio-site-project/blob/master/portfolio-design.png`
+![Design Mockup](/portfolio-design.png)
 
