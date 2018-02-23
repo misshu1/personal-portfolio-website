@@ -88,7 +88,13 @@ header {
     padding: 5px;
 }
 
-.icons:hover {
+.icon {
+    color: var(--dark);
+    padding-right: 5px;
+}
+
+.icons:hover,
+.icon:hover {
     color: #72767c;
 }
 
@@ -234,6 +240,9 @@ footer {
     .icons {
         color: var(--dark);
         padding: 0 20px;
+    }
+    .icon {
+        padding-right: 20px;
     }
     .btn {
         width: 90%;
