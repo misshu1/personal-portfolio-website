@@ -77,6 +77,12 @@ header {
     position: absolute;
 }
 
+@supports (-moz-appearance: none) {
+    .logo {
+        position: static;
+    }
+}
+
 .header-left {
     position: relative;
     background: url(/img/logo.png) no-repeat;
@@ -117,6 +123,12 @@ header {
 /* Showcase area */
 
 @media screen and (min-width: 800px) {
+    @supports (-moz-appearance: none) {
+        .container {
+            min-height: 450px;
+            padding-top: 1.5rem;
+        }
+    }
     .container {
         padding-top: 1rem;
         display: grid;
@@ -256,6 +268,12 @@ footer {
     .btn {
         width: 90%;
     }
+    @supports (-moz-appearance: none) {
+        .header-left {
+            height: 67px;
+            ;
+        }
+    }
 }
 
 @media screen and (min-width:300px) and (max-width:500px) {
@@ -281,6 +299,16 @@ footer {
 /* Showcase */
 
 @media screen and (max-width: 799px) {
+    @supports (-moz-appearance: none) {
+        .showcase {
+            min-height: 20px;
+            padding-top: 12vw;
+        }
+        .top-box-a {
+            min-height: 20px;
+            padding-top: 1vw;
+        }
+    }
     .container {
         padding-top: 1rem;
         display: grid;
