@@ -255,6 +255,10 @@ footer {
     header {
         grid-template-columns: 1fr;
     }
+    .logo {
+        width: 200px;
+        height: 67px;
+    }
     .header-right {
         justify-self: center;
     }
