@@ -195,7 +195,7 @@ header {
 }
 
 .project-a {
-    background: url(/img/card.jpg) no-repeat;
+    background: url(/img/card-game.png);
     background-size: cover;
     background-position: center;
     min-width: 100%;
@@ -205,7 +205,7 @@ header {
 }
 
 .project-b {
-    background: url(/img/first-website.jpg) no-repeat;
+    background: url(/img/card.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     min-width: 100%;
@@ -215,7 +215,7 @@ header {
 }
 
 .project-c {
-    background: url(/img/coming-soon.jpg);
+    background: url(/img/first-website.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     min-width: 100%;
@@ -361,22 +361,22 @@ footer {
 
 @media screen and (max-width:700px) {
     .projects {
-        grid-template-rows: repeat(4, 200px);
+        grid-template-rows: repeat(4, 50vw);
         grid-template-columns: 1fr;
         grid-template-areas: 'project-a' 'project-b' 'project-c' 'project-d';
     }
     .project-a {
-        background: url(/img/card-low-rez.jpg) no-repeat;
+        background: url(/img/card-game.png) no-repeat;
         background-size: cover;
         background-position: center;
     }
     .project-b {
-        background: url(/img/first-website-lowrez.jpg) no-repeat;
+        background: url(/img/card-low-rez.jpg) no-repeat;
         background-size: cover;
         background-position: center;
     }
     .project-c {
-        background: url(/img/coming-soon-lowrez.jpg) no-repeat;
+        background: url(/img/first-website-lowrez.jpg) no-repeat;
         background-size: cover;
         background-position: center;
     }
